@@ -1,0 +1,32 @@
+textarea {
+    min-height: 400px;
+}
+
+.from-to {
+    display: flex;
+}
+
+.button-container {
+    display: flex;
+}
+
+.button-container > input {
+    margin-right: 10px;
+}
+
+.read {
+    background-color: grey;
+    color: white;
+}
+
+.notRead {
+    background-color: white;
+}
+
+.read:hover {
+    background-color: rgb(71, 71, 71);
+}
+
+.notRead:hover {
+    background-color: rgb(185, 185, 185);
+}
